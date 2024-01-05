@@ -4,7 +4,7 @@
 
 We will use HTML, CSS, and JavaScript for our project. This project is for students who are comfortable with JavaScript and working with the DOM.
 
-**Basic functionality:** we want our chat app to show a random (automated) chat message from the CodeWomen 'user', as a reply to the dynamic messages that are typed in the message field by the WomanDev 'user'. These messages have to be shown on the screen in a sequence, with the first message at the top and every new message added at the bottom. The random automated messages take 2 seconds to appear, showing a spinner on the screen during that time.
+**Basic functionality:** we want our chat app to show a random (automated) chat message from the TechFems 'user', as a reply to the dynamic messages that are typed in the message field by the WomanDev 'user'. These messages have to be shown on the screen in a sequence, with the first message at the top and every new message added at the bottom. The random automated messages take 2 seconds to appear, showing a spinner on the screen during that time.
 
 A simple example looks like this (spinner shown in the image on the right):  
 
@@ -24,8 +24,8 @@ A simple example looks like this (spinner shown in the image on the right):
 1. Add **The Unexpected Chat** inside the `<title>` tags
 1. Add the welcome message as shown in the example (only the first message is hardcoded)
 1. Create a template message element with:
-    1. an icon value. The icons to be used are in the images folder: codeWomen.pngfor the automated messages and woman_dev.png for the external user
-    1. a name value (either CodeWomen or WomenDev, or use your own name if you like)
+    1. an icon value. The icons to be used are in the images folder: codeWomen.png for the automated messages and woman_dev.png for the external user
+    1. a name value (either TechFems or WomenDev, or use your own name if you like)
     1. a message field where the messages entered by WomenDev will be shown
 1. Create the input field in the footer where new messages are typed by the user (make sure the footer stays at the bottom of the screen, even when there are only one or two messages)
 1. Create a submit button for the message input. The submit event has to:
@@ -35,7 +35,7 @@ A simple example looks like this (spinner shown in the image on the right):
 1. Make sure the Enter key also has this same submit functionality
 1. The message trail has to move upwards so that you always see the last message on the screen, a bit above the input field
 1. The submit event also has to 
-    1. create a new automated CodeWomen message with a random hardcoded message
+    1. create a new automated TechFems message with a random hardcoded message
     1. place this as a reply under the last WomanDev message
     1. have a time lag of two seconds to imitate the time needed to write a real message
     1. activate a spinner on the screen during these two seconds
